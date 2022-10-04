@@ -67,7 +67,7 @@ jobs:
     if: github.repository == 'microsoft/vscode-jupyter'
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: Use Node ${{env.NODE_VERSION}}
         uses: actions/setup-node@v2.4.1
@@ -112,7 +112,7 @@ jobs:
     if: github.repository == 'microsoft/vscode-jupyter'
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: Cache pip files
         uses: actions/cache@v3
@@ -194,7 +194,7 @@ jobs:
         test-suite: [ts-unit]
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: Use Node ${{env.NODE_VERSION}}
         uses: actions/setup-node@v2.4.1
@@ -333,7 +333,7 @@ jobs:
         #     os: windows-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: Download Python VSIX
         run: az storage blob download --file ${{env.VSIX_NAME_PYTHON}} --account-name pvsc --container-name extension-builds --name ${{ env.VSIX_NAME_PYTHON }}
@@ -682,7 +682,7 @@ jobs:
         python: [3.9]
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: Use Python ${{matrix.python}}
         uses: actions/setup-python@v4
@@ -768,7 +768,7 @@ jobs:
         python: [3.9]
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: Use Python ${{matrix.python}}
         uses: actions/setup-python@v4
@@ -833,7 +833,7 @@ jobs:
     needs: [ts_tests, vscodeTests, smoke-tests]
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: Install Node
         uses: actions/setup-node@v2.4.1
