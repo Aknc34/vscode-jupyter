@@ -374,8 +374,6 @@ export enum Telemetry {
     RunSelectionOrLine = 'DATASCIENCE.RUN_SELECTION_OR_LINE',
     RunToLine = 'DATASCIENCE.RUN_TO_LINE',
     RunFromLine = 'DATASCIENCE.RUN_FROM_LINE',
-    RestartKernel = 'DS_INTERNAL.RESTART_KERNEL',
-    RestartKernelCommand = 'DATASCIENCE.RESTART_KERNEL_COMMAND',
     /**
      * Whether auto save feature in VS Code is enabled or not.
      */
@@ -450,7 +448,6 @@ export enum Telemetry {
      * User used command to select an intrepreter for the jupyter server.
      */
     SelectJupyterInterpreterCommand = 'DATASCIENCE.SELECT_JUPYTER_INTERPRETER_Command',
-    StartJupyterProcess = 'DS_INTERNAL.START_JUPYTER_PROCESS',
     NumberOfSavedRemoteKernelIds = 'DS_INTERNAL.NUMBER_OF_REMOTE_KERNEL_IDS_SAVED',
     WaitForIdleJupyter = 'DS_INTERNAL.WAIT_FOR_IDLE_JUPYTER',
     PerceivedJupyterStartupNotebook = 'DS_INTERNAL.PERCEIVED_JUPYTER_STARTUP_NOTEBOOK',
@@ -469,8 +466,6 @@ export enum Telemetry {
     DebugContinue = 'DATASCIENCE.DEBUG_CONTINUE',
     DebugStop = 'DATASCIENCE.DEBUG_STOP',
     OpenNotebookAll = 'DATASCIENCE.NATIVE.OPEN_NOTEBOOK_ALL',
-    NotebookRunCount = 'DS_INTERNAL.NATIVE.NOTEBOOK_RUN_COUNT',
-    NotebookOpenCount = 'DS_INTERNAL.NATIVE.NOTEBOOK_OPEN_COUNT',
     JupyterNotInstalledErrorShown = 'DATASCIENCE.JUPYTER_NOT_INSTALLED_ERROR_SHOWN',
     RegisterInterpreterAsKernel = 'DS_INTERNAL.JUPYTER_REGISTER_INTERPRETER_AS_KERNEL',
     UserInstalledJupyter = 'DATASCIENCE.USER_INSTALLED_JUPYTER',
@@ -491,8 +486,6 @@ export enum Telemetry {
     PythonExtensionInstalledViaKernelPicker = 'DS_INTERNAL.PYTHON_EXTENSION_INSTALLED_VIA_KERNEL_PICKER',
     JupyterCommandLineNonDefault = 'DS_INTERNAL.JUPYTER_CUSTOM_COMMAND_LINE',
     NewFileForInteractiveWindow = 'DS_INTERNAL.NEW_FILE_USED_IN_INTERACTIVE',
-    ZMQSupported = 'DS_INTERNAL.ZMQ_NATIVE_BINARIES_LOADING',
-    ZMQNotSupported = 'DS_INTERNAL.ZMQ_NATIVE_BINARIES_NOT_LOADING',
     IPyWidgetLoadSuccess = 'DS_INTERNAL.IPYWIDGET_LOAD_SUCCESS',
     IPyWidgetLoadFailure = 'DS_INTERNAL.IPYWIDGET_LOAD_FAILURE',
     IPyWidgetWidgetVersionNotSupportedLoadFailure = 'DS_INTERNAL.IPYWIDGET_WIDGET_VERSION_NOT_SUPPORTED_LOAD_FAILURE',
@@ -507,11 +500,7 @@ export enum Telemetry {
     IPyWidgetOverhead = 'DS_INTERNAL.IPYWIDGET_OVERHEAD',
     IPyWidgetRenderFailure = 'DS_INTERNAL.IPYWIDGET_RENDER_FAILURE',
     IPyWidgetUnhandledMessage = 'DS_INTERNAL.IPYWIDGET_UNHANDLED_MESSAGE',
-    JupyterCreatingNotebook = 'DS_INTERNAL.JUPYTER_CREATING_NOTEBOOK',
-    RawKernelSessionConnect = 'DS_INTERNAL.RAWKERNEL_SESSION_CONNECT',
-    RawKernelStartRawSession = 'DS_INTERNAL.RAWKERNEL_START_RAW_SESSION',
     RawKernelInfoResponse = 'DS_INTERNAL.RAWKERNEL_INFO_RESPONSE',
-    RawKernelSessionStart = 'DS_INTERNAL.RAWKERNEL_SESSION_START',
     RawKernelSessionStartNoIpykernel = 'DS_INTERNAL.RAWKERNEL_SESSION_NO_IPYKERNEL',
     RawKernelProcessLaunch = 'DS_INTERNAL.RAWKERNEL_PROCESS_LAUNCH',
     RawKernelSessionShutdown = 'DS_INTERNAL.RAWKERNEL_SESSION_SHUTDOWN',
@@ -527,7 +516,6 @@ export enum Telemetry {
     SwitchKernel = 'DS_INTERNAL.SWITCH_KERNEL',
     KernelCount = 'DS_INTERNAL.KERNEL_COUNT',
     ExecuteCell = 'DATASCIENCE.EXECUTE_CELL',
-    PythonKerneExecutableMatches = 'DS_INTERNAL.PYTHON_KERNEL_EXECUTABLE_MATCHES',
     /**
      * Sent when a command we register is executed.
      */
