@@ -2148,7 +2148,7 @@
     },
     "dependencies": {
         "@enonic/fnv-plus": "^1.3.0",
-        "@fluentui/react": "^7.160.1",
+        "@fluentui/react": "^7.201.0",
         "@jupyter-widgets/base": "4.0.0",
         "@jupyter-widgets/controls": "3.0.0",
         "@jupyter-widgets/schema": "0.4.0",
