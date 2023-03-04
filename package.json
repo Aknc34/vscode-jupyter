@@ -2210,7 +2210,7 @@
         "stack-trace": "0.0.10",
         "string-argv": "^0.3.1",
         "strip-comments": "^2.0.1",
-        "styled-components": "^5.2.1",
+        "styled-components": "^5.3.7",
         "sudo-prompt": "^9.2.1",
         "svg-inline-react": "^3.1.0",
         "svg-to-pdfkit": "^0.1.8",
