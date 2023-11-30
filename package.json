@@ -2172,7 +2172,7 @@
         "font-awesome": "^4.7.0",
         "format-util": "^1.0.5",
         "fs-extra": "^4.0.3",
-        "glob": "^7.1.2",
+        "glob": "^9.0.0",
         "iconv-lite": "^0.4.21",
         "image-size": "^1.0.0",
         "inversify": "^5.0.1",
