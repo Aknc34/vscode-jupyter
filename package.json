@@ -2330,7 +2330,7 @@
         "enzyme-adapter-react-16": "^1.6.0",
         "es-abstract": "^1.19.1",
         "es5-ext": "^0.10.53",
-        "eslint": "^7.32.0",
+        "eslint": "^9.0.0",
         "eslint-config-airbnb": "^18.2.0",
         "eslint-config-prettier": "^6.15.0",
         "eslint-plugin-header": "^3.1.1",
