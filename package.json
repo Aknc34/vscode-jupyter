@@ -2369,7 +2369,7 @@
         "lru-cache": "^6.0.0",
         "md5": "^2.3.0",
         "mimic-response": "^4.0.0",
-        "mocha": "^9.2.2",
+        "mocha": "^10.6.0",
         "mocha-junit-reporter": "^2.0.2",
         "mocha-multi-reporters": "^1.1.7",
         "nocache": "^2.1.0",
