@@ -2163,7 +2163,7 @@
         "ajv-keywords": "^3.5.2",
         "ansi-to-html": "^0.6.7",
         "arch": "^2.1.0",
-        "bootstrap": "^4.3.1",
+        "bootstrap": "^5.0.0",
         "bootstrap-less": "^3.3.8",
         "cross-fetch": "^3.1.5",
         "decompress-response": "^4.2.0",
