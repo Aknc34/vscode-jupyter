@@ -2380,7 +2380,7 @@
         "nyc": "^15.0.0",
         "path-browserify": "^1.0.1",
         "popper.js": "^1.16.1",
-        "postcss": "^8.4.6",
+        "postcss": "^8.5.0",
         "postcss-import": "^14.0.2",
         "postcss-loader": "^6.2.1",
         "postcss-preset-env": "^7.3.1",
