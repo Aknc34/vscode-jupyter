@@ -2234,7 +2234,7 @@
     },
     "devDependencies": {
         "@actions/core": "^1.9.1",
-        "@actions/github": "^4.0.0",
+        "@actions/github": "^6.0.0",
         "@actions/glob": "^0.3.0",
         "@babel/cli": "^7.15.4",
         "@babel/core": "^7.4.4",
